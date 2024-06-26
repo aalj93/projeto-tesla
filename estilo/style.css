@@ -125,9 +125,11 @@ aside ul{
     list-style-type:'\1F5F8\00a0' ;
     list-style-position: inside;
     columns: 2;
-    padding: 8px;
-    width: 600px;
-    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 15px;
+    min-width:300px;
+    max-height:400px;
     margin-top: 20px;
     text-align:center;
     border-radius: 8px;
@@ -153,4 +155,4 @@ footer{
     color: white;
     font-weight: normal;
     font-size: 0.8em;
-    background-color: var(--cor3);}
+    background-image: linear-gradient(to bottom,var(--cor4),var(--cor1));}
