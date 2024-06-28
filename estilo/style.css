@@ -163,7 +163,8 @@ aside ul{
 footer{
     margin-top: 20px;
     text-align: center;
-    font-family: var(--fonte-principal);
+    letter-spacing: 2px;
+    font-family: var(--fonte-especial);
     color: white;
     font-weight: normal;
     font-size: 0.8em;
