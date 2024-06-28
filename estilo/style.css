@@ -26,10 +26,9 @@ body{
     background-color: white;
 }
 header{
-    background-image: url(/imagens/header.jpg);
-    background-position: center top;
+    background:white url(/imagens/header.jpg) center top repeat-x fixed;
     text-align: center;
-    height: 170px;
+    height:170px;
 }
 header h1{
     font-size: 3.0em;
@@ -66,8 +65,7 @@ nav a{
 }
 nav a:hover{ 
 color: rgba(37, 37, 37, 0.658);
-text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.322);
- }
+text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.322); }
 main{
     padding: 20px;
     background-color: white;
@@ -165,7 +163,8 @@ aside ul{
 footer{
     margin-top: 20px;
     text-align: center;
-    font-family: var(--fonte-principal);
+    letter-spacing: 2px;
+    font-family: var(--fonte-especial);
     color: white;
     font-weight: normal;
     font-size: 0.8em;
