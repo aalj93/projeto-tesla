@@ -62,10 +62,12 @@ nav a{
     font-family: var(--fonte-menu);
     font-weight: bold;
     padding: 8px;
-    transition-duration: .5s; margin: 40px;}
+    transition-duration: .5s; margin: 40px;
+}
 nav a:hover{ 
 color: rgba(37, 37, 37, 0.658);
-text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.322); }
+text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.322);
+ }
 main{
     padding: 20px;
     background-color: white;
