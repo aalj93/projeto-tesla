@@ -22,13 +22,13 @@ padding: 0px;
 margin:0px;
 }
 body{
-    background-image: url(/imagens/body.jpg);
+    background-color: white;
 }
 header{
     background-image: url(/imagens/header.jpg);
     background-position: center top;
     text-align: center;
-    height: 150px;
+    height: 170px;
 }
 header h1{
     font-size: 3.0em;
@@ -48,8 +48,9 @@ header p{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);  
 }
 nav{
+    text-align: center;
     background-image: url(/imagens/header.jpg);
-    background-position: center center;
+    background-position: center bottom;
     padding: 10px;height: 30px;
 }
 nav a{
@@ -59,9 +60,9 @@ nav a{
     font-weight: bold;
     padding: 8px;
     transition-duration: .7s; margin: 20px;}
-nav a:hover{ font-size: 1.09em;
-color: rgba(226, 223, 28, 0.658);
-text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.37); }
+nav a:hover{ 
+color: rgba(28, 58, 226, 0.658);
+text-shadow: 1px 1px 0.5px rgba(53, 67, 148, 0.658); }
 main{
     padding: 20px;
     background-color: white;
@@ -107,7 +108,7 @@ img{
     margin: auto;
 }
 aside {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.192);
     border-radius: 8px;
     box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.411);
     margin-top: 20px;
@@ -115,19 +116,20 @@ aside {
 aside h3{
     color: white;
     background-color: var(--cor5);
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-especial);
     padding: 10px;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
     letter-spacing: 3px;
+    font-size: 1.5em;
 }
 aside ul{
-    background-color: rgba(77, 73, 73, 0.493);
+    background-color: rgba(77, 73, 73, 0.644);
     text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.315);
     color: white;
     font-weight: bold;
     font-size: 1em;
-    font-family: var(--fonte-principal);
+    font-family: var(--fonte-padrão);
     list-style-type:'\1F5F8\00a0' ;
     list-style-position: inside;
     columns: 2;
@@ -161,4 +163,5 @@ footer{
     color: white;
     font-weight: normal;
     font-size: 0.8em;
-    background-image: linear-gradient(to bottom,var(--cor4),var(--cor0));}
+    background-color: black;
+}
