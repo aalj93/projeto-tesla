@@ -65,7 +65,7 @@ nav a{
     transition-duration: .5s; margin: 40px;}
 nav a:hover{ 
 color: rgba(37, 37, 37, 0.658);
-text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.322); }
+text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.322); text-decoration: underline;}
 main{
     padding: 20px;
     background-color: white;
